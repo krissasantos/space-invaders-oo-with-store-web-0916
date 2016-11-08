@@ -1,47 +1,298 @@
 {
   "stats": {
     "suites": 4,
-    "tests": 0,
-    "passes": 0,
+    "tests": 20,
+    "passes": 20,
     "pending": 0,
-    "failures": 3,
-    "start": "2016-11-07T22:37:53.041Z",
-    "end": "2016-11-07T22:37:56.808Z",
-    "duration": 3767
+    "failures": 0,
+    "start": "2016-11-08T20:15:33.328Z",
+    "end": "2016-11-08T20:15:34.501Z",
+    "duration": 1173
   },
-  "tests": [],
-  "pending": [],
-  "failures": [
+  "tests": [
     {
-      "title": "\"before each\" hook for \"should know their position\"",
-      "fullTitle": "space invaders CrewMember \"before each\" hook for \"should know their position\"",
-      "duration": 0,
+      "title": "should know their position",
+      "fullTitle": "space invaders CrewMember should know their position",
+      "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: CrewMember is not defined\n    at Context.<anonymous> (test/space-invaders-test.js:29:21)",
-        "message": "CrewMember is not defined"
-      }
+      "err": {}
     },
     {
-      "title": "\"before each\" hook for \"should know its own name\"",
-      "fullTitle": "space invaders Spaceship \"before each\" hook for \"should know its own name\"",
+      "title": "should add crewmember to all crewmember data",
+      "fullTitle": "space invaders CrewMember should add crewmember to all crewmember data",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: Spaceship is not defined\n    at Context.<anonymous> (test/space-invaders-test.js:73:23)",
-        "message": "Spaceship is not defined"
-      }
+      "err": {}
     },
     {
-      "title": "\"before each\" hook for \"should assign a crew member\"",
-      "fullTitle": "space invaders Ship with a crew \"before each\" hook for \"should assign a crew member\"",
+      "title": "should know their id",
+      "fullTitle": "space invaders CrewMember should know their id",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: Spaceship is not defined\n    at Context.<anonymous> (test/space-invaders-test.js:120:23)",
-        "message": "Spaceship is not defined"
-      }
+      "err": {}
+    },
+    {
+      "title": "should not be assigned to a ship",
+      "fullTitle": "space invaders CrewMember should not be assigned to a ship",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should should return \"Looking for a Rig\" if they aren't assigned to a ship",
+      "fullTitle": "space invaders CrewMember should should return \"Looking for a Rig\" if they aren't assigned to a ship",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return \"had no effect\" when the crew member tries to use their special ability",
+      "fullTitle": "space invaders CrewMember should return \"had no effect\" when the crew member tries to use their special ability",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should know its own name",
+      "fullTitle": "space invaders Spaceship should know its own name",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have the correct number of phasers (5)",
+      "fullTitle": "space invaders Spaceship should have the correct number of phasers (5)",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have the correct layer of shields (4)",
+      "fullTitle": "space invaders Spaceship should have the correct layer of shields (4)",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have its cloaking set to false by default",
+      "fullTitle": "space invaders Spaceship should have its cloaking set to false by default",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have its warp drive set to \"disengaged\" by default",
+      "fullTitle": "space invaders Spaceship should have its warp drive set to \"disengaged\" by default",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be docked if it has no crew",
+      "fullTitle": "space invaders Spaceship should be docked if it has no crew",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should not be docked if it has crew",
+      "fullTitle": "space invaders Spaceship should not be docked if it has crew",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have its `phasers` charge set to \"uncharged\" by default",
+      "fullTitle": "space invaders Spaceship should have its `phasers` charge set to \"uncharged\" by default",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should add spaceship to all shapship data",
+      "fullTitle": "space invaders Spaceship should add spaceship to all shapship data",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should assign a crew member",
+      "fullTitle": "space invaders Ship with a crew should assign a crew member",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "a crew member should know his or her ship",
+      "fullTitle": "space invaders Ship with a crew a crew member should know his or her ship",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should charge its phasers when a gunner calls `chargePhasers`",
+      "fullTitle": "space invaders Ship with a crew should charge its phasers when a gunner calls `chargePhasers`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have its warp drive set to \"engaged\" only when the pilot uses `engageWarpDrive`",
+      "fullTitle": "space invaders Ship with a crew should have its warp drive set to \"engaged\" only when the pilot uses `engageWarpDrive`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should cloak when a defender `setsInvisibility`",
+      "fullTitle": "space invaders Ship with a crew should cloak when a defender `setsInvisibility`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
     }
   ],
-  "passes": []
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "should know their position",
+      "fullTitle": "space invaders CrewMember should know their position",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should add crewmember to all crewmember data",
+      "fullTitle": "space invaders CrewMember should add crewmember to all crewmember data",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should know their id",
+      "fullTitle": "space invaders CrewMember should know their id",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should not be assigned to a ship",
+      "fullTitle": "space invaders CrewMember should not be assigned to a ship",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should should return \"Looking for a Rig\" if they aren't assigned to a ship",
+      "fullTitle": "space invaders CrewMember should should return \"Looking for a Rig\" if they aren't assigned to a ship",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return \"had no effect\" when the crew member tries to use their special ability",
+      "fullTitle": "space invaders CrewMember should return \"had no effect\" when the crew member tries to use their special ability",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should know its own name",
+      "fullTitle": "space invaders Spaceship should know its own name",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have the correct number of phasers (5)",
+      "fullTitle": "space invaders Spaceship should have the correct number of phasers (5)",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have the correct layer of shields (4)",
+      "fullTitle": "space invaders Spaceship should have the correct layer of shields (4)",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have its cloaking set to false by default",
+      "fullTitle": "space invaders Spaceship should have its cloaking set to false by default",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have its warp drive set to \"disengaged\" by default",
+      "fullTitle": "space invaders Spaceship should have its warp drive set to \"disengaged\" by default",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be docked if it has no crew",
+      "fullTitle": "space invaders Spaceship should be docked if it has no crew",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should not be docked if it has crew",
+      "fullTitle": "space invaders Spaceship should not be docked if it has crew",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have its `phasers` charge set to \"uncharged\" by default",
+      "fullTitle": "space invaders Spaceship should have its `phasers` charge set to \"uncharged\" by default",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should add spaceship to all shapship data",
+      "fullTitle": "space invaders Spaceship should add spaceship to all shapship data",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should assign a crew member",
+      "fullTitle": "space invaders Ship with a crew should assign a crew member",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "a crew member should know his or her ship",
+      "fullTitle": "space invaders Ship with a crew a crew member should know his or her ship",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should charge its phasers when a gunner calls `chargePhasers`",
+      "fullTitle": "space invaders Ship with a crew should charge its phasers when a gunner calls `chargePhasers`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have its warp drive set to \"engaged\" only when the pilot uses `engageWarpDrive`",
+      "fullTitle": "space invaders Ship with a crew should have its warp drive set to \"engaged\" only when the pilot uses `engageWarpDrive`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should cloak when a defender `setsInvisibility`",
+      "fullTitle": "space invaders Ship with a crew should cloak when a defender `setsInvisibility`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
 }
